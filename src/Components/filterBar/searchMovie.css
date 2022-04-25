@@ -1,0 +1,150 @@
+/* give the filter bar a sticky position and css styling */
+.searchMovie {
+  position: sticky;
+  transition: 0.4s;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  height: 75px;
+  background: #116466;
+  box-shadow: 0 5px 10px gold;
+  font-family: "Grape Nuts", cursive;
+}
+.search-container {
+  display: flex;
+  justify-content: space-around;
+}
+.divTitle {
+  margin-right: 3%;
+}
+.search-title {
+  width: 50%;
+  display: flex;
+  align-items: baseline;
+}
+.search-rating {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.searchTxt {
+  color: gold;
+  font-family: "Grape Nuts", cursive;
+  font-size: 40px;
+  font-weight: 500;
+}
+.box {
+  position: relative;
+  top: 45%;
+  left: 27%;
+  transform: translate(-50%, -50%);
+}
+.input {
+  width: 50px;
+  height: 50px;
+  background: none;
+  border: 4px solid #ffd52d;
+  border-radius: 50px;
+  box-sizing: border-box;
+  font-family: Comic Sans MS;
+  font-size: 26px;
+  color: #ffd52d;
+  outline: none;
+  transition: 0.5s;
+}
+.box:hover input {
+  width: 350px;
+  background: #45a29e;
+  border-radius: 10px;
+}
+.fa-search {
+  position: absolute;
+  top: 50%;
+  right: 1px;
+  transform: translate(-50%, -50%);
+  font-size: 26px;
+  color: #ffd52d;
+  transition: 0.2s;
+}
+.box:hover i {
+  opacity: 0;
+  z-index: -1;
+}
+
+/* give the filter bar a sticky position and css styling */
+.searchMovie {
+  /* border: 1px solid red; */
+  position: sticky;
+  transition: 0.4s;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  height: 75px;
+  background: #116466;
+  box-shadow: 0 5px 10px gold;
+  font-family: "Grape Nuts", cursive;
+}
+.search-container {
+  display: flex;
+  justify-content: space-around;
+}
+.divTitle {
+  margin-right: 3%;
+}
+.search-title {
+  width: 50%;
+  display: flex;
+  align-items: baseline;
+}
+.search-rating {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.searchTxt {
+  color: gold;
+  font-family: "Grape Nuts", cursive;
+  font-size: 40px;
+  font-weight: 500;
+}
+.box {
+  position: relative;
+  top: 45%;
+  left: 27%;
+  transform: translate(-50%, -50%);
+}
+.input {
+ 
+  width: 50px;
+  height: 50px;
+  background: none;
+  border: 4px solid #ffd52d;
+  border-radius: 50px;
+  box-sizing: border-box;
+  font-family: Comic Sans MS;
+  font-size: 26px;
+  color: #ffd52d;
+  outline: none;
+  transition: 0.5s;
+}
+.box:hover input {
+  width: 350px;
+  background: #45a29e;
+  border-radius: 10px;
+}
+.fa-search {
+  position: absolute;
+  top: 50%;
+  right: 1px;
+  transform: translate(-50%, -50%);
+  font-size: 26px;
+  color: #ffd52d;
+  transition: 0.2s;
+}
+.box:hover i {
+  opacity: 0;
+  z-index: -1;
+}
+

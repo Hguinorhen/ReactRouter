@@ -1,0 +1,87 @@
+.movieCard {
+  display: flex;
+  flex-direction: column;
+  background: #116466;
+  box-shadow: 0 0 30px 3px gold;
+  border-radius: 25px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  margin: 20px 0;
+  transform: scale(0.95);
+  transition: all 0.5s;
+}
+.movieCard:hover {
+  transform: scale(1.1);
+  box-shadow: 0 5px 10px -12.12px rgba(0, 0, 0, 0.02);
+}
+.cardHeader {
+  display: flex;
+  text-align: center;
+  padding-left: 10%;
+  position: relative;
+  top: 1%;
+}
+.btnX {
+  border: none;
+  background: transparent;
+  position: fixed;
+  top: 2%;
+  left: 88%;
+}
+.fa-xmark,
+.fa-play,
+.fa-caret-left {
+  color: #ffd52d;
+  transition: 0.2s;
+  font-size: 20px;
+}
+.poster {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.poster img {
+  width: 250px;
+  height: 250px;
+}
+
+.btn-details {
+  width: 45%;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffd52d;
+  background-color: transparent;
+  border: none;
+}
+
+/* respopnsive design */
+@media only screen and (max-width: 768px) {
+  .poster img {
+    width: 90%;
+    height: 90%;
+  }
+  .title {
+    padding-left: 5%;
+  }
+  .cardBottom {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .poster img {
+    width: 90%;
+    height: 90%;
+  }
+  .title {
+    padding-left: 7%;
+  }
+  .cardBottom {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7%;
+  }
+
+}
